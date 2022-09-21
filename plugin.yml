@@ -1,0 +1,21 @@
+name: HubPlugin
+version: 1.0
+author: GameurDuXVI
+main: fr.gameurduxvi.hubplugin.Main
+depend: [MeneliaAPI]
+commands:
+  hub:
+    description: Teleporte vers le hub
+    permission: 
+  sethub:
+    description: Met la location du hub
+    permission: HubPlugin.sethub
+  chest:
+    description: 
+    permission: HubPlugin.menebox
+  music:
+    description: 
+    permission: HubPlugin.music.listen
+  editmusic:
+    description: 
+    permission: HubPlugin.music.edit
